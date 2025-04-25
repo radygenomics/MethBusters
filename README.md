@@ -12,11 +12,11 @@ perform the following:
 * analysis of methylation variation from the background call model
 * auxiliary scripts for calling DMI (differentially methylated/imprinted regions), for fast gene-centric annotaion of called regions
 
-Inputs: bedmethyl files (as produced by [PacificBiosciences/pb-CpG-tools](https://github.com/PacificBiosciences/pb-CpG-tools) or [nanoporetech/dorado](https://github.com/nanoporetech/dorado) components, 
-or by integrated pipelines: [PacificBiosciences/HiFi-human-WGS-WDL](https://github.com/PacificBiosciences/HiFi-human-WGS-WDL) or [epi2me-labs/wf-human-variation](https://github.com/epi2me-labs/wf-human-variation).
+Inputs: [bedmethyl files](https://www.encodeproject.org/data-standards/wgbs/) (as produced by [PacificBiosciences/pb-CpG-tools](https://github.com/PacificBiosciences/pb-CpG-tools) or [nanoporetech/modkit](https://github.com/nanoporetech/modkit) components, 
+or by integrated pipelines: [PacificBiosciences/HiFi-human-WGS-WDL](https://github.com/PacificBiosciences/HiFi-human-WGS-WDL) or [epi2me-labs/wf-human-variation](https://github.com/epi2me-labs/wf-human-variation)).
 
 Outputs:
-bed files with scores (can be treated as tab-separated files)
+bed files with scores (can be treated as tab-separated files).
 
 ## Compute requirements
 
